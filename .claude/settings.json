@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python _gen.py)",
+      "Bash(ls /c/Python*)",
+      "Bash(command -v py)",
+      "Bash(py _gen.py)"
+    ]
+  }
+}
