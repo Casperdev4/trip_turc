@@ -34,231 +34,136 @@
     <meta name="twitter:image" content="https://trip-yorumlarini-satin-al.com/tripadvisor-banner.png">
 
     <script type="application/ld+json">
-{
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-        {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Anasayfa",
-            "item": "https://trip-yorumlarini-satin-al.com/"
-        },
-        {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Bar TripAdvisor Yorumları",
-            "item": "https://trip-yorumlarini-satin-al.com/bar-tripadvisor-yorumlari.html"
-        }
-    ]
-}
-    </script>
-    <script type="application/ld+json">
-{
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "TripAdvisor Yorumları",
-    "url": "https://trip-yorumlarini-satin-al.com",
-    "logo": "https://trip-yorumlarini-satin-al.com/tripadvisor-logo.png",
-    "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Hizmetlerimiz",
-        "itemListElement": [
+    {
+        "@context": "https://schema.org",
+        "@graph": [
             {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "Bar TripAdvisor Yorumları",
-                    "url": "https://trip-yorumlarini-satin-al.com/bar-tripadvisor-yorumlari.html"
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Anasayfa",
+                        "item": "https://trip-yorumlarini-satin-al.com/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Bar TripAdvisor Yorumları",
+                        "item": "https://trip-yorumlarini-satin-al.com/bar-tripadvisor-yorumlari.html"
+                    }
+                ]
+            },
+            {
+                "@type": "Organization",
+                "name": "TripAdvisor Yorumları",
+                "url": "https://trip-yorumlarini-satin-al.com",
+                "logo": "https://trip-yorumlarini-satin-al.com/tripadvisor-logo.png",
+                "hasOfferCatalog": {
+                    "@type": "OfferCatalog",
+                    "name": "Hizmetlerimiz",
+                    "itemListElement": [
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "bar tripadvisor yorumları",
+                                "url": "https://trip-yorumlarini-satin-al.com/bar-tripadvisor-yorumlari.html"
+                            }
+                        }
+                    ]
                 }
+            },
+            {
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "Bir bar için neden TripAdvisor yorumları çok önemli?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Müşterilerin %82'si bir bara gitmeden önce çevrimiçi yorumlara bakar. Olumlu yorumlar müşteri akışını doğrudan artırır."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Yorumlar bar sektörüne uyarlı mı?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Evet, yorumlarımız kokteyl kalitesi, içecek seçimi, atmosfer, müzik ve dekorasyon gibi bar sektörüne özgü kelimelerle yazılır."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "TripAdvisor yorumları Google Haritalar sıralamasını etkiler mi?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Kesinlikle. İyi puan alan bir bar Google Haritalar'da ve 'yakınımdaki bar' aramalarında daha iyi görünürlükten yararlanır."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Bir bar için kaç tane TripAdvisor yorumu gerekir?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Minimum 50 yorum öneriyoruz. Şehir merkezi ve turistik bölgedeki barların 100 ve üzerini hedeflemesi önerilir."
+                        }
+                    }
+                ]
+            },
+            {
+                "@type": "ItemList",
+                "name": "Bar TripAdvisor Yorum Teklifleri",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "item": {
+                            "@type": "Product",
+                            "name": "25 Olumlu Yorum + 5 hediye",
+                            "description": "Pack 25 Olumlu Yorum + 5 hediye.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "79",
+                                "priceCurrency": "EUR"
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "item": {
+                            "@type": "Product",
+                            "name": "50 Olumlu Yorum + 10 hediye",
+                            "description": "Pack 50 Olumlu Yorum + 10 hediye.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "139",
+                                "priceCurrency": "EUR"
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "item": {
+                            "@type": "Product",
+                            "name": "100 Olumlu Yorum + 20 hediye",
+                            "description": "Pack 100 Olumlu Yorum + 20 hediye.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "239",
+                                "priceCurrency": "EUR"
+                            }
+                        }
+                    }
+                ]
             }
         ]
     }
-}
-    </script>
-    <script type="application/ld+json">
-{
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-        {
-            "@type": "Question",
-            "name": "Bir bar için neden TripAdvisor yorumları çok önemli?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Müşterilerin %82'si bir bara gitmeden önce çevrimiçi yorumlara bakar. Olumlu yorumlar müşteri akışını doğrudan artırır."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Yorumlar bar sektörüne uyarlı mı?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Evet, yorumlarımız kokteyl kalitesi, içecek seçimi, atmosfer, müzik ve dekorasyon gibi bar sektörüne özgü kelimelerle yazılır."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "TripAdvisor yorumları Google Haritalar sıralamasını etkiler mi?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Kesinlikle. İyi puan alan bir bar Google Haritalar'da ve 'yakınımdaki bar' aramalarında daha iyi görünürlükten yararlanır."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Bir bar için kaç tane TripAdvisor yorumu gerekir?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Minimum 50 yorum öneriyoruz. Şehir merkezi ve turistik bölgedeki barların 100 ve üzerini hedeflemesi önerilir."
-            }
-        }
-    ]
-}
-    </script>
-    <script type="application/ld+json">
-{
-    "@context": "https://schema.org",
-    "@type": "ItemList",
-    "name": "Bar TripAdvisor Yorum Teklifleri",
-    "itemListElement": [
-        {
-            "@type": "Product",
-            "position": 1,
-            "name": "25 Bar TripAdvisor Yorumu + 5 hediye",
-            "description": "Doğrulanmış hesaplar, kişiselleştirilmiş metinler, ömür boyu garanti ile bar sektörüne uyarlanmış 25 olumlu TripAdvisor yorumu paketi.",
-            "image": "https://trip-yorumlarini-satin-al.com/tripadvisor-logo.png",
-            "offers": {
-                "@type": "Offer",
-                "price": "79",
-                "priceCurrency": "EUR",
-                "availability": "https://schema.org/InStock",
-                "shippingDetails": {
-                    "@type": "OfferShippingDetails",
-                    "shippingRate": {
-                        "@type": "MonetaryAmount",
-                        "value": "0",
-                        "currency": "EUR"
-                    },
-                    "deliveryTime": {
-                        "@type": "ShippingDeliveryTime",
-                        "handlingTime": {
-                            "@type": "QuantitativeValue",
-                            "minValue": 1,
-                            "maxValue": 2,
-                            "unitCode": "DAY"
-                        },
-                        "transitTime": {
-                            "@type": "QuantitativeValue",
-                            "minValue": 12,
-                            "maxValue": 30,
-                            "unitCode": "DAY"
-                        }
-                    },
-                    "shippingDestination": {
-                        "@type": "DefinedRegion",
-                        "addressCountry": "TR"
-                    }
-                },
-                "hasMerchantReturnPolicy": {
-                    "@type": "MerchantReturnPolicy",
-                    "applicableCountry": "TR",
-                    "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
-                }
-            }
-        },
-        {
-            "@type": "Product",
-            "position": 2,
-            "name": "50 Bar TripAdvisor Yorumu + 10 hediye",
-            "description": "Doğrulanmış hesaplar, kişiselleştirilmiş metinler, ömür boyu garanti ile bar sektörüne uyarlanmış 50 olumlu TripAdvisor yorumu paketi.",
-            "image": "https://trip-yorumlarini-satin-al.com/tripadvisor-logo.png",
-            "offers": {
-                "@type": "Offer",
-                "price": "139",
-                "priceCurrency": "EUR",
-                "availability": "https://schema.org/InStock",
-                "shippingDetails": {
-                    "@type": "OfferShippingDetails",
-                    "shippingRate": {
-                        "@type": "MonetaryAmount",
-                        "value": "0",
-                        "currency": "EUR"
-                    },
-                    "deliveryTime": {
-                        "@type": "ShippingDeliveryTime",
-                        "handlingTime": {
-                            "@type": "QuantitativeValue",
-                            "minValue": 1,
-                            "maxValue": 2,
-                            "unitCode": "DAY"
-                        },
-                        "transitTime": {
-                            "@type": "QuantitativeValue",
-                            "minValue": 25,
-                            "maxValue": 60,
-                            "unitCode": "DAY"
-                        }
-                    },
-                    "shippingDestination": {
-                        "@type": "DefinedRegion",
-                        "addressCountry": "TR"
-                    }
-                },
-                "hasMerchantReturnPolicy": {
-                    "@type": "MerchantReturnPolicy",
-                    "applicableCountry": "TR",
-                    "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
-                }
-            }
-        },
-        {
-            "@type": "Product",
-            "position": 3,
-            "name": "100 Bar TripAdvisor Yorumu + 20 hediye",
-            "description": "Doğrulanmış hesaplar, kişiselleştirilmiş metinler, ömür boyu garanti ile bar sektörüne uyarlanmış 100 olumlu TripAdvisor yorumu paketi.",
-            "image": "https://trip-yorumlarini-satin-al.com/tripadvisor-logo.png",
-            "offers": {
-                "@type": "Offer",
-                "price": "239",
-                "priceCurrency": "EUR",
-                "availability": "https://schema.org/InStock",
-                "shippingDetails": {
-                    "@type": "OfferShippingDetails",
-                    "shippingRate": {
-                        "@type": "MonetaryAmount",
-                        "value": "0",
-                        "currency": "EUR"
-                    },
-                    "deliveryTime": {
-                        "@type": "ShippingDeliveryTime",
-                        "handlingTime": {
-                            "@type": "QuantitativeValue",
-                            "minValue": 1,
-                            "maxValue": 2,
-                            "unitCode": "DAY"
-                        },
-                        "transitTime": {
-                            "@type": "QuantitativeValue",
-                            "minValue": 50,
-                            "maxValue": 120,
-                            "unitCode": "DAY"
-                        }
-                    },
-                    "shippingDestination": {
-                        "@type": "DefinedRegion",
-                        "addressCountry": "TR"
-                    }
-                },
-                "hasMerchantReturnPolicy": {
-                    "@type": "MerchantReturnPolicy",
-                    "applicableCountry": "TR",
-                    "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
-                }
-            }
-        }
-    ]
-}
     </script>
 </head>
 <body>
