@@ -1,14 +1,14 @@
 :root {
-    --primary: #00b67a;
-    --primary-dark: #009567;
-    --secondary: #00b67a;
+    --primary: #E30A17;
+    --primary-dark: #B80812;
+    --secondary: #E30A17;
     --dark: #191919;
     --light: #f8f9fa;
     --white: #ffffff;
     --gray: #4a4a4a;
     --gray-light: #e9ecef;
-    --gradient: linear-gradient(135deg, #191919 0%, #00b67a 100%);
-    --shadow: 0 10px 40px rgba(0, 182, 122, 0.15);
+    --gradient: linear-gradient(135deg, #191919 0%, #E30A17 100%);
+    --shadow: 0 10px 40px rgba(227, 10, 23, 0.15);
     --shadow-sm: 0 4px 15px rgba(0, 0, 0, 0.08);
     --radius: 12px;
     --radius-lg: 20px;
@@ -72,12 +72,12 @@ img {
 .btn-primary {
     background: var(--gradient);
     color: var(--white);
-    box-shadow: 0 4px 20px rgba(0, 182, 122, 0.35);
+    box-shadow: 0 4px 20px rgba(227, 10, 23, 0.35);
 }
 
 .btn-primary:hover {
     transform: translateY(-3px);
-    box-shadow: 0 8px 30px rgba(0, 182, 122, 0.45);
+    box-shadow: 0 8px 30px rgba(227, 10, 23, 0.45);
 }
 
 .btn-outline {
@@ -258,7 +258,7 @@ img {
 
 .hero {
     padding: 160px 0 100px;
-    background: linear-gradient(180deg, #f2faf7 0%, var(--white) 100%);
+    background: linear-gradient(180deg, #fdf2f3 0%, var(--white) 100%);
     overflow: hidden;
 }
 
@@ -352,7 +352,7 @@ img {
 
 .credibility {
     padding: 100px 0;
-    background: linear-gradient(180deg, var(--white) 0%, #f2faf7 100%);
+    background: linear-gradient(180deg, var(--white) 0%, #fdf2f3 100%);
 }
 
 .credibility .container {
@@ -410,7 +410,7 @@ img {
 
 .how-it-works {
     padding: 100px 0;
-    background: linear-gradient(180deg, var(--white) 0%, #f2faf7 100%);
+    background: linear-gradient(180deg, var(--white) 0%, #fdf2f3 100%);
 }
 
 .section-title {
@@ -594,7 +594,7 @@ img {
 
 .faq {
     padding: 100px 0;
-    background: linear-gradient(180deg, #f2faf7 0%, var(--white) 100%);
+    background: linear-gradient(180deg, #fdf2f3 0%, var(--white) 100%);
 }
 
 .faq-list {
