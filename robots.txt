@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://trip-yorumlarini-satin-al.com/sitemap.xml
+Sitemap: https://pazar-incelemesi.com/sitemap.xml
